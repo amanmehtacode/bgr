@@ -2091,7 +2091,7 @@ blockquote {
 
 .section-hero {
   height: 120vh;
-  background-image: url("https://uploads-ssl.webflow.com/614823b99e5f8423cb74e3a4/614835b8726a292e84cc21f1_hero_image.png");
+  background-image: "images/hero.webp";
   background-position: 0px 0px;
   background-size: auto;
 }
