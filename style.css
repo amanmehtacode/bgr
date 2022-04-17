@@ -2091,7 +2091,7 @@ blockquote {
 
 .section-hero {
   height: 120vh;
-  background-image: "images/hero.webp";
+  background-image: images/hero.webp;
   background-position: 0px 0px;
   background-size: auto;
 }
