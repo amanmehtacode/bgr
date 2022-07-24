@@ -4720,23 +4720,12 @@
                 !s &&
                 ((e =
                   e ||
-                  ((n = t('<a class="w-webflow-badge"></a>').attr(
-                    "href",
-                    ""
-                  )),
+                  ((n = t('<a class="w-webflow-badge"></a>').attr("href", "")),
                   (r = t("<img>")
-                    .attr(
-                      "src",
-                      ""
-                    )
+                    .attr("src", "")
                     .attr("alt", "")
                     .css({ marginRight: "8px", width: "16px" })),
-                  (a = t("<img>")
-                    .attr(
-                      "src",
-                      ""
-                    )
-                    .attr("alt", "")),
+                  (a = t("<img>").attr("src", "").attr("alt", "")),
                   n.append(r, a),
                   n[0])),
                 d(),
@@ -11608,15 +11597,13 @@
         }
         function T(t, e, n) {
           if (
-            (e
-              .removeClass(h)
-              .css({
-                opacity: "",
-                transition: "",
-                transform: "",
-                width: "",
-                height: "",
-              }),
+            (e.removeClass(h).css({
+              opacity: "",
+              transition: "",
+              transform: "",
+              width: "",
+              height: "",
+            }),
             n.addClass(h).each(E.intro),
             r.redraw.up(),
             !t.intro)
